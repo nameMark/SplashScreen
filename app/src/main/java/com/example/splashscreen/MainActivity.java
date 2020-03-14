@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
         Handler handler = new Handler();
 
-        handler.postDelayed(run,30000);
+        handler.postDelayed(run,1500);
     }
 
     Runnable run = new Runnable() {
